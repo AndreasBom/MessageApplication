@@ -1,0 +1,10 @@
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\MessageApp.Domain.dll.config
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\MessageApp.Domain.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\MessageApp.Domain.pdb
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.pdb

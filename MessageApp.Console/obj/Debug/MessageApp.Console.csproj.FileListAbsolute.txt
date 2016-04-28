@@ -1,0 +1,10 @@
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\MessageApp.Console.exe.config
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\MessageApp.Console.exe
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\MessageApp.Console.pdb
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\obj\Debug\MessageApp.Console.csprojResolveAssemblyReference.cache
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\obj\Debug\MessageApp.Console.exe
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\obj\Debug\MessageApp.Console.pdb
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\EasyHttp.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\JsonFx.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\EasyHttp.pdb
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\JsonFx.xml
