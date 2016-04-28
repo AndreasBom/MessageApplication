@@ -1,6 +1,0 @@
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplication\bin\Debug\MessageApplication.exe.config
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplication\bin\Debug\MessageApplication.exe
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplication\bin\Debug\MessageApplication.pdb
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplication\obj\Debug\MessageApplication.csprojResolveAssemblyReference.cache
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplication\obj\Debug\MessageApplication.exe
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplication\obj\Debug\MessageApplication.pdb

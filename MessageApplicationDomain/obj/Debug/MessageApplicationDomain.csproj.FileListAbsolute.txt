@@ -1,5 +1,0 @@
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplicationDomain\bin\Debug\MessageApplicationDomain.dll
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplicationDomain\bin\Debug\MessageApplicationDomain.pdb
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplicationDomain\obj\Debug\MessageApplicationDomain.csprojResolveAssemblyReference.cache
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplicationDomain\obj\Debug\MessageApplicationDomain.dll
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApplicationDomain\obj\Debug\MessageApplicationDomain.pdb
