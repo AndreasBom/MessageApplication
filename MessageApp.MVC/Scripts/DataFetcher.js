@@ -2,9 +2,8 @@
 
 (function () {
     var message = [];
-    var hasNewMessages = false;
 
-    //Append messages to html
+    //Prepend messages to html
     function successCall (data) {
         var diff = data.length - message.length;
 
@@ -15,12 +14,14 @@
                 var date = data[i]["DateTime"];
                 var correctedDate = new Date(parseInt(date.replace("/Date(", "").replace(")/", ""), 10));
                 
+                //message obj
                 message[i] = {
                     'date': correctedDate.toDateString(),
                     'time': correctedDate.toLocaleTimeString(),
                     'textMessage': textMessage
                 };
                 
+                //Add to HTML
                 $('#messages').prepend(message[i].date + ": <br/>" + "kl: " +message[i].time + "<br/>" + message[i].textMessage + "<br/> <br/><hr>");
             }
         }
