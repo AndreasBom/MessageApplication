@@ -2,11 +2,11 @@
 
 (function () {
     var message = [];
+    var hasNewMessages = false;
 
     //Append messages to html
     function successCall (data) {
         var diff = data.length - message.length;
-        console.log(message.length);
 
         //If new message arrived
         if (diff !== 0) {
@@ -27,7 +27,7 @@
     };
 
     //Get messages from server
-    var fetchData = function() {
+    var fetchData = function () {
         $.ajax({
             url: "http://localhost:54663/Message/GetMessages",
             success: function(data) {
@@ -38,13 +38,13 @@
         });
     };
 
-
     //Poll for new messages
     function poll() {
         setTimeout(function () {
             fetchData();
         }, 3000);
     };
+
 
     fetchData();
     poll();

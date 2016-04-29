@@ -23,6 +23,8 @@ namespace MessageApp.Console
             var sender = new Sender(serviceUrl, apiKey);
             var app = new Application(view, sender);
 
+            view.SetTitle();
+
             while (app.Run()) { }
         }
     }

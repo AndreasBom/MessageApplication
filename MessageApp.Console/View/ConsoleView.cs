@@ -8,11 +8,15 @@ namespace MessageApp.Console.View
 {
     public class ConsoleView : IConsoleView
     {
+        public void SetTitle()
+        {
+            System.Console.Title = "Meddelande App";
+        }
+
         public string UserInput()
         {
             System.Console.Write("$>");
             return System.Console.ReadLine();
-
         }
 
         public void ShowIntroduction()
@@ -33,6 +37,12 @@ namespace MessageApp.Console.View
             System.Console.WriteLine("Ett fel inträffade.");
             System.Console.WriteLine("Var god försök igen.");
         }
+
+        public void NotValidErrorMessage()
+        {
+            System.Console.WriteLine("Indatan var inte av tillåtet format. Var god försök igen.");
+        }
+
         public void ShowSendingConfirmation()
         {
             System.Console.WriteLine("Skickar meddelande...");

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using MessageApp.Domain.DAL;
 using MessageApp.Domain.DAL.Entities;
-using MessageApp.Domain.Repositories;
 
 namespace MessageApp.Domain.Repositories
 {

@@ -1,30 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
+﻿using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.UI.WebControls;
-using MessageApp.Domain;
 using MessageApp.Domain.DAL.Entities;
 using MessageApp.Domain.Repositories;
 using MessageApp.Domain.Services;
-using MessageApp.MVC.ViewModels;
+using MessageApp.MVC.ViewModel;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace MessageApp.MVC.Controllers
 {
     public class MessageController : Controller
     {
-        private string _apiKey = "123456";
+        private string _apiKey = ConfigurationManager.AppSettings["apiKey"];
         private IMessageService _service;
+
 
         public MessageController()
             : this(new MessageService())
         {
-            
+
         }
 
         public MessageController(IMessageService service)
@@ -34,6 +29,7 @@ namespace MessageApp.MVC.Controllers
 
         public ActionResult Index()
         {
+            //Delete all messages in database
             //DeleteAllDataInDatabase();
 
             return View();
@@ -44,16 +40,14 @@ namespace MessageApp.MVC.Controllers
         public void SaveMessage()
         {
             var headers = Request.Headers;
-            //Reading request body
+            //Reading request body and convert to Message-Object
             var jsonString = string.Empty;
             var request = Request.InputStream;
             request.Seek(0, System.IO.SeekOrigin.Begin);
-
             using (var sr = new StreamReader(request))
             {
                 jsonString = sr.ReadToEnd();
             }
-
             var json = JsonConvert.DeserializeObject<Message>(jsonString);
 
             //Save to database
@@ -62,20 +56,19 @@ namespace MessageApp.MVC.Controllers
                 _service.AddMessage(json);
                 _service.Save();
             }
-
-            var vm = new MessageViewModel();
         }
 
+        [HttpGet]
         public ActionResult GetMessages()
         {
             var vm = new MessageViewModel();
-            var model = vm.Message;
+            var messages = vm.Message.ToList();
 
-            return Json(model, JsonRequestBehavior.AllowGet);
-
+            return Json(messages, JsonRequestBehavior.AllowGet);
         }
 
-        //Catches all unhandled exceptions and redirects to Errorhandler
+
+        //Catches all unhandled exceptions
         protected override void OnException(ExceptionContext filterContext)
         {
             filterContext.ExceptionHandled = true;

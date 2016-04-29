@@ -7,7 +7,6 @@ namespace MessageApp.Console.Controller
 
     /// <summary>
     ///Application Controller
-    /// Will return false if user input is 'q', otherwise true
     /// </summary>
     public class Application
     {
@@ -22,7 +21,10 @@ namespace MessageApp.Console.Controller
         }
 
 
-        //Run Application
+        /// <summary>
+        /// Run application
+        /// </summary>
+        /// <returns>Returns false if user presses 'q' otherwise true</returns>
         public bool Run()
         {
             //Instructions. Only visible when app starts
@@ -41,25 +43,33 @@ namespace MessageApp.Console.Controller
             }
 
             //Send message to server
-            try
+            if (Validate.IsValid(input))
             {
-                _view.ShowSendingConfirmation();
-                var response =_sender.Post(input);
+                try
+                {
+                    _view.ShowSendingConfirmation();
+                    var response = _sender.Post(input);
 
-                if (response == HttpStatusCode.OK)
-                {
-                    _view.ShowSuccessfullySent();
+                    if (response == HttpStatusCode.OK)
+                    {
+                        _view.ShowSuccessfullySent();
+                    }
+                    else
+                    {
+                        _view.ErrorMessage();
+                    }
+
                 }
-                else
+                catch (WebException ex)
                 {
-                    _view.ErrorMessage();
+                    _view.ErrorMessage(ex);
                 }
-                
             }
-            catch (WebException ex)
+            else
             {
-                _view.ErrorMessage(ex);
+                _view.NotValidErrorMessage();
             }
+            
 
             return true;
         }
