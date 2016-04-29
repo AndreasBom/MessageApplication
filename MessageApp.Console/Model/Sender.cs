@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MessageApp.Console.Model
 {
@@ -11,6 +7,7 @@ namespace MessageApp.Console.Model
     {
         private readonly string _serviceUrl;
         private readonly string _apiKey;
+
         public Sender(string serviceUrl, string apiKey)
         {
             _serviceUrl = serviceUrl;
@@ -24,11 +21,12 @@ namespace MessageApp.Console.Model
         public HttpStatusCode Post(string message)
         {
             var httpClient = new EasyHttp.Http.HttpClient();
+            //Restricting posts to server
+            httpClient.Request.AddExtraHeader("X-API-KEY", _apiKey);
 
             var response = httpClient.Post(_serviceUrl, new
             {
-                ApiKey = _apiKey, //Restricting posts to server
-                Message = message,
+                TextMessage = message,
                 DateTime = DateTime.Now
             }, "application/json");
 

@@ -17,9 +17,9 @@ namespace MessageApp.Domain.Repositories
         private readonly MessageDbContext _context;
 
         public MessageRepository()
-            :this(new MessageDbContext())
+            : this(new MessageDbContext())
         {
-            
+
         }
 
         public MessageRepository(MessageDbContext dbContext)
@@ -45,6 +45,6 @@ namespace MessageApp.Domain.Repositories
         public override void Save()
         {
             _context.SaveChanges();
-        }        
+        }
     }
 }

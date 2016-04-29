@@ -8,3 +8,7 @@ C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\E
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\JsonFx.dll
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\EasyHttp.pdb
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\JsonFx.xml
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\MessageApp.Domain.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\EntityFramework.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\MessageApp.Domain.pdb
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Console\bin\Debug\EntityFramework.xml

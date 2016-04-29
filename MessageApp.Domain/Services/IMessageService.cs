@@ -10,5 +10,7 @@ namespace MessageApp.Domain.Services
     public interface IMessageService
     {
         IEnumerable<Message> GetMessages();
+        void AddMessage(Message message);
+        void Save();
     }
 }

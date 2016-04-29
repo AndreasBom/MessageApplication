@@ -46,9 +46,13 @@ namespace MessageApp.Console.Controller
                 _view.ShowSendingConfirmation();
                 var response =_sender.Post(input);
 
-                if (response == HttpStatusCode.Created)
+                if (response == HttpStatusCode.OK)
                 {
                     _view.ShowSuccessfullySent();
+                }
+                else
+                {
+                    _view.ErrorMessage();
                 }
                 
             }

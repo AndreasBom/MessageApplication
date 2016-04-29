@@ -42,3 +42,5 @@ C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.MVC\bin\MessageApp.
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.MVC\bin\EntityFramework.dll
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.MVC\bin\MessageApp.Domain.pdb
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.MVC\bin\EntityFramework.xml
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.MVC\bin\EntityFramework.SqlServer.xml

@@ -25,9 +25,18 @@ namespace MessageApp.Domain.Services
         public IEnumerable<Message> GetMessages()
         {
             return _messageRepository.GetAllMessages();
-        } 
+        }
 
-        
+        public void AddMessage(Message message)
+        {
+            _messageRepository.InserMessage(message);
+        }
+
+        public void Save()
+        {
+            _messageRepository.Save();
+        }
+
 
     }
 }

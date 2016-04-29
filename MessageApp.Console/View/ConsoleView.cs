@@ -28,6 +28,11 @@ namespace MessageApp.Console.View
             System.Console.WriteLine("Var god försök igen.");
         }
 
+        public void ErrorMessage()
+        {
+            System.Console.WriteLine("Ett fel inträffade.");
+            System.Console.WriteLine("Var god försök igen.");
+        }
         public void ShowSendingConfirmation()
         {
             System.Console.WriteLine("Skickar meddelande...");

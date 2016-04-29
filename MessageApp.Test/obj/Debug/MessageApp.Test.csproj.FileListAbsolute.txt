@@ -13,8 +13,8 @@ C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\Moq.
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\Moq.xml
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\MessageApp.Console.exe
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\MessageApp.Console.pdb
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\EasyHttp.dll
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\JsonFx.dll
-C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\MessageApp.Console.pdb
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\EasyHttp.pdb
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Test\bin\Debug\JsonFx.xml

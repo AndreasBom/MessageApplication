@@ -11,6 +11,7 @@ namespace MessageApp.Console.View
         void ShowIntroduction();
         string UserInput();
         void ErrorMessage(Exception exeption);
+        void ErrorMessage();
         void ShowSendingConfirmation();
 
         void ShowSuccessfullySent();

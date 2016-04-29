@@ -64,6 +64,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MessageApp.Domain\MessageApp.Domain.csproj">
+      <Project>{cebb9f45-12be-43fe-98bc-e69023f99c77}</Project>
+      <Name>MessageApp.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

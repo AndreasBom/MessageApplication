@@ -8,3 +8,5 @@ C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\En
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.dll
 C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.pdb
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.Migrations.init.resources
+C:\Users\Andre\MEGA\Arbetsprov\MessageApplication\MessageApp.Domain\obj\Debug\MessageApp.Domain.csproj.GenerateResource.Cache

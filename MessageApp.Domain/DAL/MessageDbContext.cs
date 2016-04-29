@@ -14,7 +14,7 @@ namespace MessageApp.Domain.DAL
     public class MessageDbContext : DbContext
     {
         public MessageDbContext()
-            :base("name=MessageAppConnectionString")
+            :base("name=MessageApp")
         {
             //Empty
         }
