@@ -4,7 +4,6 @@ using MessageApp.Console.View;
 
 namespace MessageApp.Console.Controller
 {
-
     /// <summary>
     ///Application Controller
     /// </summary>

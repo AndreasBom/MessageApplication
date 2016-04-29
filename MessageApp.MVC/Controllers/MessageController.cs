@@ -67,16 +67,6 @@ namespace MessageApp.MVC.Controllers
             return Json(messages, JsonRequestBehavior.AllowGet);
         }
 
-
-        //Catches all unhandled exceptions
-        protected override void OnException(ExceptionContext filterContext)
-        {
-            filterContext.ExceptionHandled = true;
-            ModelState.AddModelError(string.Empty, "Något gick fel");
-
-            filterContext.Result = RedirectToAction("Index");
-        }
-
         //For development
         private void DeleteAllDataInDatabase()
         {

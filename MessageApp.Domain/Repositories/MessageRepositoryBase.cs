@@ -11,7 +11,7 @@ namespace MessageApp.Domain.Repositories
         protected abstract IQueryable<Message> QueryMessages();
         public IEnumerable<Message> GetAllMessages()
         {
-            return QueryMessages().ToList();
+            return QueryMessages().OrderBy(m=>m.DateTime).ToList();
         }
         public Message GetMessageById(int messageId)
         {
