@@ -4,7 +4,7 @@ An application that posts messages from an console application to a web site.
    
    
 ###Installation Instructions    
-You will need to enable migration and update database schema:   
+You need to enable migration and update database schema:   
 open: Nuget Package Console (Tools -> Nuget Package Manager -> Package Manager Console)    
 in console, choose default project in drop down menu to be MessageApp.Domain     
 
